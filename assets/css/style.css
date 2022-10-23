@@ -54,3 +54,22 @@ header section {
     width: 450px;
     height: 200px;
 }
+footer {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+footer section {
+    display: inline-block;
+    padding: 7px 20px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+#JWS-Logo2 {
+    width: 55px;
+    height: 30px;
+    float: right;
+}
+#Copyright {
+    width: 15px;
+    height: 15px;
+}
