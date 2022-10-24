@@ -16,9 +16,8 @@ header section {
     float: left;
 }
 #motto {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);  
+    text-align: center;
+    text-transform: uppercase;  
 }
 #contact {
     float: right;
@@ -27,25 +26,24 @@ header section {
     width: 30px;
     height: 30px;
 }
-#menu {
+.menu {
     font-size: 110%;
     font-weight: bold;
     background-color: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
-#menu li {
-    display: inline-block;
-    padding: 7px 0px;
-    margin-left: 250px;
-    list-style-type: none;
+.menu li {
+    display: inline;
+    padding: 45px;
 }
-#menu a {
+.menu a {
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
-#menu a:hover {
-    border-bottom: 2px solid black;
-}
-.active {
+.menu a:hover {
     border-bottom: 2px solid black;
 }
 .about {
@@ -53,26 +51,23 @@ header section {
     padding-bottom: 20px;
 }
 .about section {
-    color: white;
     padding-top: 50px;
     padding-bottom: 90px;
-    font-weight: bold;
+    color: lightgrey;
 }
-#industries {
-    padding-bottom: 5px;
-    text-decoration: underline white;
+.about section h3 {
+    text-decoration: underline;
+    padding-left: 10px;
 }
-#products {
-    padding-bottom: 5px;
-    text-decoration: underline white;
+.about section ul {
+    padding-left: 25px;
 }
-#Multiple-Industries2 {
-    width: 575px;
-    height: 275px;
+#Quarry {
+    width: 100%
 }
-#Multiple-Industries {
-    width: 575px;
-    height: 275px;
+.about h2 {
+    color: lightgrey;
+    text-align: center;
 }
 footer {
     background-color: lightgrey;
@@ -82,16 +77,13 @@ footer section {
     display: inline-block;
     vertical-align: middle;
     padding: 5px;
-    
 }
 #head {
     float: left;
     padding-left: 5px;
 }
 #other {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);  
+    text-align: center;  
 }
 #jwsblacklogo {
     float: right;
