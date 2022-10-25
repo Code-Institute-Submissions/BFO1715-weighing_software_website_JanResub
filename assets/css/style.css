@@ -98,20 +98,19 @@ footer section {
 }
 .aftersales {
     background-color: #10242b;
-    height: 720px;
     padding-top: 30px;
+    height: 900px;
 }
 #implementation {
-    padding-top: 30px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 17px;
     width: 33%;
     float: left;
     background-color: rgb(243, 66, 34);
     color: lightgrey;
 }
 #support {
-    padding-top: 30px;
-    padding-bottom: 4px;
+    padding-top: 20px;
     width: 33%;
     float: right;
     background-color: rgb(243, 66, 34);
@@ -129,5 +128,66 @@ footer section {
     padding-left: 20px;
 }
 #support-list {
+    padding-left: 20px;
+}
+.soft-software {
+    background-color: #10242b;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 750px;
+}  
+#soft-distilleries {
+    padding-top: 20px;
+    padding-bottom: 17px;
+    width: 20%;
+    float: left;
+    background-color: rgb(243, 66, 34);
+    color: lightgrey;
+}
+#soft-distilleries-list {
+    padding-left: 20px;
+}
+#soft-quarries {
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    background-color: rgb(243, 66, 34);
+    color: lightgrey;
+}
+#soft-quarries-list {
+    padding-left: 20px;
+}
+#soft-waste {
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    background-color: rgb(243, 66, 34);
+    color: lightgrey;
+}
+#soft-waste-list {
+    padding-left: 20px;
+}
+#soft-transport {
+    width: 20%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    background-color: rgb(243, 66, 34);
+    color: lightgrey;
+}
+#soft-transport-list {
+    padding-left: 20px;
+}
+#soft-manufacturing {
+    padding-top: 20px;
+    padding-bottom: 17px;
+    width: 20%;
+    float: left;
+    background-color: rgb(243, 66, 34);
+    color: lightgrey;
+}
+#soft-manufacturing-list {
     padding-left: 20px;
 }
