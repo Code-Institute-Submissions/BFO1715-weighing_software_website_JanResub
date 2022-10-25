@@ -72,7 +72,6 @@ header section {
     text-align: center;
 }
 footer {
-    background-color: lightgrey;
     font-weight: bold;
 }
 footer section {
@@ -96,4 +95,39 @@ footer section {
 #Copyright {
     width: 15px;
     height: 15px;
+}
+.aftersales {
+    background-color: #10242b;
+    height: 720px;
+    padding-top: 30px;
+}
+#implementation {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 33%;
+    float: left;
+    background-color: rgb(243, 66, 34);
+    color: lightgrey;
+}
+#support {
+    padding-top: 30px;
+    padding-bottom: 4px;
+    width: 33%;
+    float: right;
+    background-color: rgb(243, 66, 34);
+    color: lightgrey;
+}
+#indicator {
+    width: 33%;
+    margin: 0 auto;
+}
+#Repair {
+    width: 100%;
+    height: 100%;
+}
+#implementation-list {
+    padding-left: 20px;
+}
+#support-list {
+    padding-left: 20px;
 }
