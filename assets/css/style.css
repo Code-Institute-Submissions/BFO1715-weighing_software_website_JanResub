@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 * {margin: 0; padding: 0;}
+
 header {
     background-color: #0094D5E3;
 }
@@ -28,6 +29,7 @@ header section {
     width: 30px;
     height: 30px;
 }
+
 .menu {
     font-size: 110%;
     font-weight: bold;
@@ -48,6 +50,7 @@ header section {
 .menu a:hover {
     border-bottom: 2px solid black;
 }
+
 .about {
     background-color: #10242b;
     padding-bottom: 20px;
@@ -71,6 +74,7 @@ header section {
     color: lightgrey;
     text-align: center;
 }
+
 footer {
     font-weight: bold;
 }
@@ -96,10 +100,11 @@ footer section {
     width: 15px;
     height: 15px;
 }
+
 .aftersales {
     background-color: #10242b;
     padding-top: 30px;
-    height: 900px;
+    height: 750px;
 }
 #implementation {
     padding-top: 20px;
@@ -130,18 +135,19 @@ footer section {
 #support-list {
     padding-left: 20px;
 }
+
 .soft-software {
     background-color: #10242b;
     padding-top: 30px;
     padding-bottom: 30px;
-    height: 750px;
+    height: 800px
 }  
 #soft-distilleries {
     padding-top: 20px;
     padding-bottom: 17px;
     width: 20%;
     float: left;
-    background-color: rgb(243, 66, 34);
+    background-color: #0094D5E3;
     color: lightgrey;
 }
 #soft-distilleries-list {
@@ -152,8 +158,8 @@ footer section {
     float: left;
     padding-top: 20px;
     padding-bottom: 17px;
-    background-color: rgb(243, 66, 34);
-    color: lightgrey;
+    background-color: #10242b;
+    color: rgb(243, 66, 34);
 }
 #soft-quarries-list {
     padding-left: 20px;
@@ -163,7 +169,7 @@ footer section {
     float: left;
     padding-top: 20px;
     padding-bottom: 17px;
-    background-color: rgb(243, 66, 34);
+    background-color: #0094D5E3;
     color: lightgrey;
 }
 #soft-waste-list {
@@ -174,8 +180,8 @@ footer section {
     float: left;
     padding-top: 20px;
     padding-bottom: 17px;
-    background-color: rgb(243, 66, 34);
-    color: lightgrey;
+    background-color: #10242b;
+    color: rgb(243, 66, 34);
 }
 #soft-transport-list {
     padding-left: 20px;
@@ -185,9 +191,18 @@ footer section {
     padding-bottom: 17px;
     width: 20%;
     float: left;
-    background-color: rgb(243, 66, 34);
+    background-color: #0094D5E3;
     color: lightgrey;
 }
 #soft-manufacturing-list {
     padding-left: 20px;
+}
+
+.form-section {
+    background: url("https://www.johnwhiteandson.com/wp-content/uploads/2021/09/Checkweigher-Header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    color: white;
+    padding-left: 5px;
 }
