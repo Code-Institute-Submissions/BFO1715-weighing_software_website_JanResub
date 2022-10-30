@@ -20,15 +20,6 @@ header section {
     text-transform: uppercase;  
     font-size: 20px;
 }
-#contact {
-    float: left;
-    font-size: 18px;
-    vertical-align: middle;
-}
-#LinkedIn-logo {
-    width: 30px;
-    height: 30px;
-}
 
 .menu {
     font-size: 110%;
@@ -136,7 +127,6 @@ footer section {
 }
 
 .soft-software {
-    padding-top: 30px;
     padding-bottom: 30px;
     height: 800px
 }  
@@ -197,7 +187,7 @@ footer section {
 }
 #Control-System {
     width: 100%;
-    height: 470px;
+    height: 250px;
 }
 
 .form-section {
@@ -205,23 +195,37 @@ footer section {
     background-size: cover;
     background-position: center;
     height: 900px;
-    color: #0094D5E3;
+    color: white;
     padding-left: 10px;
+    font-weight: bold;
+}
+#contact {
+    float: left;
+    font-size: 18px;
+    vertical-align: middle;
+}
+#LinkedIn-logo {
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (max-width: 1200px) {
 .aftersales {
-    width: 65%;
     height: 1200px;
     margin: 0 auto;
+    padding-top: 0;
+}
+#implementation {
+    clear: both;
+    width: 100%;
 }
 #indicator {
     clear: both;
-    float: left
+    width: 100%;
 }
 #support {
     clear: both;
-    float: left
+    width: 100%;
 }
 .soft-software {
     width: 65%;
@@ -230,22 +234,25 @@ footer section {
 }
 #soft-distilleries {
     clear: both;
-    float: left
+    width: 100%;
 }
 #soft-quarries {
     clear: both;
-    float: left
+    width: 100%;
 }   
 #soft-waste {
     clear: both;
-    float: left
+    width: 100%;
 }
 #soft-transport {
     clear: both;
-    float: left
+    width: 100%;
 }
 #soft-manufacturing {
     clear: both;
-    float: left
+    width: 100%;
+}
+#Control-System {
+    display: none;
 }
 }
