@@ -195,6 +195,10 @@ footer section {
 #soft-manufacturing-list {
     padding-left: 20px;
 }
+#Control-System {
+    width: 100%;
+    height: 470px;
+}
 
 .form-section {
     background: url("https://www.johnwhiteandson.com/wp-content/uploads/2021/09/Checkweigher-Header.jpg");
