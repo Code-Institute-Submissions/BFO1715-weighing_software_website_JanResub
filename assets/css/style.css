@@ -21,9 +21,9 @@ header section {
     font-size: 20px;
 }
 #contact {
-    float: right;
+    float: left;
     font-size: 18px;
-    padding-top: 30px;
+    vertical-align: middle;
 }
 #LinkedIn-logo {
     width: 30px;
@@ -205,7 +205,7 @@ footer section {
     background-size: cover;
     background-position: center;
     height: 900px;
-    color: white;
+    color: #0094D5E3;
     padding-left: 10px;
 }
 
