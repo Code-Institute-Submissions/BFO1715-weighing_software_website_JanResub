@@ -50,33 +50,6 @@ header div {
     border-bottom: 2px solid black;
 }
 
-/*----- About section */
-
-.about {
-    background-color: #10242b;
-    padding-bottom: 20px;
-}
-.about section {
-    padding-top: 50px;
-    padding-bottom: 90px;
-    color: lightgrey;
-}
-.about section h3 {
-    text-decoration: underline;
-    padding-left: 10px;
-}
-.about section ul {
-    padding-left: 25px;
-}
-
-#Quarry {
-    width: 100%
-}
-.about h3 {
-    color: lightgrey;
-    text-align: center;
-}
-
 /*----- Footer section */
 
 footer {
@@ -105,47 +78,38 @@ footer div {
     height: 15px;
 }
 
-/*----- Support section */
+/*----- Home section */
 
-.aftersales {
-    padding-top: 30px;
-    height: 720px;
-}
-#implementation {
-    padding-top: 20px;
-    padding-bottom: 17px;
-    width: 33%;
-    float: left;
+.about {
     background-color: #10242b;
+    padding-bottom: 20px;
+}
+.about section {
+    padding-top: 50px;
+    padding-bottom: 90px;
     color: lightgrey;
 }
-#support {
-    padding-top: 20px;
-    width: 33%;
-    float: right;
-    background-color: #10242b;
+.about section h3 {
+    text-decoration: underline;
+    padding-left: 10px;
+}
+.about section ul {
+    padding-left: 25px;
+}
+
+#Quarry {
+    width: 100%
+}
+.about h3 {
     color: lightgrey;
-}
-#indicator {
-    width: 33%;
-    margin: 0 auto;
-}
-#Repair {
-    width: 100%;
-    height: 100%;
-}
-#implementation-list {
-    padding-left: 20px;
-}
-#support-list {
-    padding-left: 20px;
+    text-align: center;
 }
 
 /*----- Software section */
 
 .soft-software {
-    padding-bottom: 30px;
-    height: 800px
+    background-color: #10242b;
+    padding-bottom: 20px;
 }  
 #soft-distilleries {
     padding-top: 20px;
@@ -202,26 +166,61 @@ footer div {
 #soft-manufacturing-list {
     padding-left: 20px;
 }
-#Control-System {
+#reject-checkweigher {
     width: 100%;
     height: 250px;
+}
+
+/*----- Support section */
+
+.aftersales {
+    background-color: #10242b;
+    padding-bottom: 20px;
+}
+#implementation {
+    padding-top: 20px;
+    padding-bottom: 17px;
+    width: 33%;
+    float: left;
+    background-color: #10242b;
+    color: lightgrey;
+}
+#support {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+    background-color: #10242b;
+    color: lightgrey;
+}
+#indicator {
+    width: 33%;
+    margin: 0 auto;
+}
+#Repair {
+    width: 100%;
+    height: 100%;
+}
+#implementation-list {
+    padding-left: 20px;
+}
+#support-list {
+    padding-left: 20px;
 }
 
 /*----- Contact section */
 
 .form-section {
-    background: url("https://www.johnwhiteandson.com/wp-content/uploads/2021/09/Checkweigher-Header.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color: #10242b;
+    padding-bottom: 20px;
     height: 900px;
     color: white;
     padding-left: 10px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 #contact {
     float: left;
-    font-size: 30px;
+    font-size: 25px;
     vertical-align: middle;
 }
 #LinkedIn-logo {
