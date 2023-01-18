@@ -39,7 +39,7 @@ header div {
 }
 .menu li {
     display: inline;
-    padding: 45px;
+    margin: 45px;
 }
 .menu a {
     text-decoration: none;
@@ -171,6 +171,10 @@ footer div {
     width: 100%;
     height: 250px;
 }
+#software-addition {
+    color: white;
+    text-align: center;
+}
 
 /*----- Support section */
 
@@ -207,6 +211,10 @@ footer div {
 }
 #support-list {
     padding-left: 20px;
+}
+#support-addition {
+    color: white;
+    text-align: center;
 }
 
 /*----- Contact section */
@@ -274,7 +282,16 @@ footer div {
     clear: both;
     width: 100%;
 }
-#Control-System {
+#reject-checkweigher {
+    display: none;
+}
+#software-addition {
+    display: none;
+}
+#repair {
+    display: none;
+}
+#support-addition {
     display: none;
 }
 }
