@@ -1,4 +1,4 @@
-# JWS Weighing Indicator Software
+# JWS Weighing Software
 
 
 
