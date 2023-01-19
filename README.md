@@ -27,28 +27,28 @@ The software page will list the different options available to clients dependent
 <strong><u>STRUCTURE</u></strong>
 
 How is the user interaction designed?<br>
-At the top of the terminal will be the title of the application Weighing Data System. The user will then be asked to input the 5 inweights which will give an error if the values entered aren’t integers, over required weight or in the correct format. The user will then be notified if the inweight data has been successfully uploaded to google sheets. Next, the user will be asked to input 5 outweights which will also give an error if the values entered aren’t integers, over required weight or in the correct format. The user will then be notified if the outweight data has been successfully uploaded to google sheets. The app will then calculate netweight from outweights minus inweights and notify the user when the netweight data has been successfully uploaded to google sheets. The app will then calculate total load by adding the 5 netweights then printing each of the outweights, inweights, netweights and finally total load. 
+There will be a Nav bar taking client to 4 pages Home, Software Solution, Implementation & Services, Contact Us. A form to be filled out requesting further information on the contact page as well as a link to JWS twitter and email address plus phone number for direct contact.<br><br>
+How will the information architecture look?<br>
+Home page will be split into three sections with industries covered in the first section then a full length image and lastly the products we cover.  The software page will list available solutions vertically depending on the user’s industry and provide a step by step solution. An image at the bottom of the page showcases some of our products. The support page details how the chose solution will be implemented and supported split into two sections and separated by an image. The contact page will have a bold form to fill out as well as JWS contact details and a smaller image at the bottom in order to focus the users attention on the form. A bright header with a large bold motto and logo will be on every page catching the users attention. A small footer with location details finishes every page.
 
-<img src="assets/images/process_flowchart.png" alt="Process Flowchart" width="500" height="200"><br>
 
 <strong><u>SKELETON</u></strong>
 
-How will the interface be laid out?<br>
-Command-line interface with step by step instructions for user to follow and notifications of outputs.<br>
+How will the interface be laid out?
 
-<img src="assets/images/python_terminal_app.png" alt="Terminal Screenshot" width="400" height="225"><br>
+<img src="assets/images/home-wireframe.png" alt="Home Wireframe" width="200" height="125"><img src="assets/images/software-wireframe.png" alt="Software Wireframe" width="200" height="125"><img src="assets/images/support-wireframe.png" alt="Support Wireframe" width="200" height="125"><img src="assets/images/contact-wireframe.png" alt="Contact Wireframe" width="200" height="125">
 
 <strong><u>SURFACE</u></strong>
 
 What will the visual design look like?<br>
-Heroku app with step by step instructions for user to follow and notifications of outputs.<br>
 
-<img src="assets/images/app_demo.png" alt="App Demo" width="400" height="225"><br>
+<img src="assets/images/home-demo.png" alt="Home Demo" width="200" height="125"><img src="assets/images/software-demo.png" alt="Software Demo" width="200" height="125"><img src="assets/images/support-demo.png" alt="Support Demo" width="200" height="125"><img src="assets/images/contact-demo.png" alt="Contact Demo" width="200" height="125">
 
 <strong><u>FUTURE RELEASES</u></strong>
 
 What features would you like to have in the future?<br>
-Allow the user to select how many vehicles they will have coming to and leaving site for the given period and select the minimum weight for the vehicle.
+The site would preferably have user interfacing demonstrations where inputs can be mimicked by the user and outputs relayed dependant on the data. It would be visual and reflective of the indicator or control panel and software selected. There would also be more graphics to further explain how the software works and how we would implement the solution. This would allow the client to get a real-world example of how the software would work and the 
+process of implementation and support. 
 
 <strong><u>TECHNOLOGY</u></strong>
 
@@ -56,69 +56,51 @@ What technology was used?<br>
 <ul>
 <li>Gitpod - writing code on workspace.</li>
 <li>Github - hosting repository.</li>
-<li>Python - programming language used to write code.</li>
-<li>Google API - interface used to allow integration between google sheets and program.</li>
-<li>Heroku - platform used to deploy the app.</li>
+<li>HTML - markup language used to write code.</li>
+<li>CSS - style sheet language used to style code.</li>
+<li>Chrome Dev Tools - platform used to test contrast and device responsiveness.</li>
+<li>Balsamic Wireframes - platform used to sketch out website.</li>
 </ul>
 
 <strong><u>TESTING</u></strong>
 
 How was the app tested and are there any bugs that have not been addressed?<br>
-Tested code PEP8 on https://www.pythonchecker.com/ with no major errors and a 96% mark. 6 minor issues are no whitespaces around operators. Also tested code by running pylint run.py on the terminal with the following results:
+Tested HTML code on https://validator.w3.org/ with no errors or warnings found. 
 
-<img src="assets/images/pylint_test.png" alt="Pylint Test" width="1000" height="225"><br>
+<img src="assets/images/home-w3c.png" alt="Home Test" width="200" height="125"><img src="assets/images/software-w3c.png" alt="Software Test" width="200" height="125"><img src="assets/images/support-w3c.png" alt="Support Test" width="200" height="125"><img src="assets/images/contact-w3c.png" alt="Contact Test" width="200" height="125">
 
-Reviewed app on Heroku dashboard and zero errors found as per below:
+Tested CSS code on https://jigsaw.w3.org/css-validator/ with no errors or warnings found.
 
-<img src="assets/images/heroku_test.png" alt="Heroku Testing" width="400" height="225">
+<img src="assets/images/css-jigsaw.png" alt="CSS Test" width="200" height="125">
 
-Tested app is working correctly by following the step by step instructions in order to spot errors or inconsistencies - none found as per below:
+Tested contrast on all pages and sections on Chrome Dev Tools - passed on all content.
 
-<img src="assets/images/app_first_test.png" alt="App First Test" width="400" height="225"><img src="assets/images/app_second_test.png" alt="App Second Test" width="400" height="225"><img src="assets/images/app_final_test.png" alt="App Final Test" width="400" height="225"><br>
-<img src="assets/images/sheets_first_test.png" alt="Sheets First Test" width="400" height="225"><img src="assets/images/sheets_second_test.png" alt="Sheets Second Test" width="400" height="225"><img src="assets/images/sheets_final_test.png" alt="Sheets Final Test" width="400" height="225">
+<img src="assets/images/contrast-check.png" alt="Contrast Check" width="200" height="125">
 
-Tested possible common errors such as inputting a string instead of integer, not inputting 5 values and inputting values less than 7,500kg:
+Tested responsiveness for multiple devices on Chrome Dev Tools as shown below:
 
-<img src="assets/images/app_str_error.png" alt="String Error Testing" width="400" height="225"><img src="assets/images/app_count_error.png" alt="Count Error Testing" width="400" height="225"><img src="assets/images/app_value_error.png" alt="Value Error Testing" width="400" height="225">
+<img src="assets/images/midres-monitor-test.png" alt="Midres Monitor Test" width="200" height="125"><img src="assets/images/lowres-monitor-test.png" alt="Lowres Monitor Test" width="200" height="125"><img src="assets/images/ipad-test.png" alt="Ipad Test" width="200" height="125"><img src="assets/images/iphone-test.png" alt="Iphone Test" width="200" height="125">
 
-
-Bug was found upon opening workspace on different device after a previously successful test, commit and push.  Error messages - Unable to import gspread and Unable to import google.oauth2.service_account.<br>
-
-<img src="assets/images/gspread_bug.png" alt="Gspread Bug" width="400" height="225"><img src="assets/images/google_oauth2_bug.png" alt="Google Auth Bug" width="400" height="225"><br>
-
-Investigated on stack overflow and ran:
-<ul>
-<li>pip install --upgrade google-auth google-auth-httplib2 google-api-python-client</li>
-<li>pip install gspread</li>
-<li>uploaded creds.json </li>
-</ul>
-
-Program tested fine afterwards though this bug kept happening upon opening workspace on different devices . 
-
-<img src="assets/images/bugs_fixed.png" alt="Bugs Fixed" width="400" height="225"><img src="assets/images/bug_fixed_testing.png" alt="Bug Fixed Testing" width="400" height="225"><br>
-
-Program still requires the pip install gspread and creds.json upload upon opening workspace on new device.
+No bugs found in code.
 
 <strong><u>DEPLOYMENT</u></strong>
 
 How was the project deployed?<br>
-The project was deployed using Github, Gitpod and Heroku. The steps to deploy are as follows:<br>
+The site was deployed to GitHub pages. The steps to deploy are as follows:<br>
 <ul>
-<li>Open Gitpod via Github repository</li>
-<li>Run python3 run.py to test program</li>
-<li>Link Heroku to Githib and create new app</li>
-<li>Add creds.json config</li>
-<li>Add python buildpack</li>
-<li>Add node.js buildpack</li>
-<li>Link Heroku app to repository</li>
-<li>Select Deploy</li>
+<li>In the GitHub repository, navigate to the Settings tab.</li>
+<li>Scroll down to the pages option on the left menu and select.</li>
+<li>Select the main branch from the build and deployment section.</li>
+<li>Once the main branch has been selected and the page is refreshed a message is displayed to indicate the successful deployment.</li>
 </ul>
 
-The live link can be found here https://weighing-data.herokuapp.com/
+The live link can be found here - https://bfo1715.github.io/weighing_software_website/
+
 
 <strong><u>CREDITS</u></strong>
 
 Code Institute - https://codeinstitute.net/<br>
+JWS - https://www.johnwhiteandson.com/<br>
 Stack Overflow - https://stackoverflow.com/
 
  
