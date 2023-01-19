@@ -119,6 +119,7 @@ footer div {
     float: left;
     background-color: #10242b;
     color: lightgrey;
+    white-space: pre-line;
 }
 #soft-distilleries-list {
     padding-left: 20px;
@@ -130,6 +131,7 @@ footer div {
     padding-bottom: 17px;
     background-color: lightgrey;
     color: #10242b;
+    white-space: pre-line;
 }
 #soft-quarries-list {
     padding-left: 20px;
@@ -141,6 +143,7 @@ footer div {
     padding-bottom: 17px;
     background-color: #10242b;
     color: lightgrey;
+    white-space: pre-line;
 }
 #soft-waste-list {
     padding-left: 20px;
@@ -152,6 +155,7 @@ footer div {
     padding-bottom: 17px;
     background-color: lightgrey;
     color: #10242b;
+    white-space: pre-line;
 }
 #soft-transport-list {
     padding-left: 20px;
@@ -163,6 +167,7 @@ footer div {
     float: left;
     background-color: #10242b;
     color: lightgrey;
+    white-space: pre-line;
 }
 #soft-manufacturing-list {
     padding-left: 20px;
@@ -190,6 +195,7 @@ footer div {
     float: left;
     background-color: #10242b;
     color: lightgrey;
+    white-space: pre-line;
 }
 #support {
     padding-top: 20px;
@@ -197,6 +203,7 @@ footer div {
     float: right;
     background-color: #10242b;
     color: lightgrey;
+    white-space: pre-line;
 }
 #indicator {
     width: 33%;
