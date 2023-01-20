@@ -27,7 +27,10 @@ The software page will list the different options available to clients dependent
 <strong><u>STRUCTURE</u></strong>
 
 How is the user interaction designed?<br>
-There will be a Nav bar taking client to 4 pages Home, Software Solution, Implementation & Services, Contact Us. A form to be filled out requesting further information on the contact page as well as a link to JWS twitter and email address plus phone number for direct contact.<br><br>
+There will be a responsive Nav bar taking client to 4 pages Home, Software Solution, Implementation & Services, Contact Us. A form to be filled out requesting further information on the contact page as well as a link to JWS twitter and email address plus phone number for direct contact.
+
+<img src="assets/images/navbar-landscape.png" alt="Navbar Landscape" width="300" height="40"><img src="assets/images/navbar-portrait.png" alt="Navbar Portrait" width="100" height="150"><img src="assets/images/form-clicklink.png" alt="Form & Clickable Link" width="100" height="150">
+
 How will the information architecture look?<br>
 Home page will be split into three sections with industries covered in the first section then a full length image and lastly the products we cover.  The software page will list available solutions vertically depending on the user’s industry and provide a step by step solution. An image at the bottom of the page showcases some of our products. The support page details how the chose solution will be implemented and supported split into two sections and separated by an image. The contact page will have a bold form to fill out as well as JWS contact details and a smaller image at the bottom in order to focus the users attention on the form. A bright header with a large bold motto and logo will be on every page catching the users attention. A small footer with location details finishes every page.
 
@@ -65,11 +68,11 @@ What technology was used?<br>
 <strong><u>TESTING</u></strong>
 
 How was the app tested and are there any bugs that have not been addressed?<br>
-Tested HTML code on https://validator.w3.org/ with no errors or warnings found. 
+Tested HTML code on W3C https://validator.w3.org/ with no errors or warnings found. 
 
 <img src="assets/images/home-w3c.png" alt="Home Test" width="200" height="125"><img src="assets/images/software-w3c.png" alt="Software Test" width="200" height="125"><img src="assets/images/support-w3c.png" alt="Support Test" width="200" height="125"><img src="assets/images/contact-w3c.png" alt="Contact Test" width="200" height="125">
 
-Tested CSS code on https://jigsaw.w3.org/css-validator/ with no errors or warnings found.
+Tested CSS code on Jigsaw https://jigsaw.w3.org/css-validator/ with no errors or warnings found.
 
 <img src="assets/images/css-jigsaw.png" alt="CSS Test" width="200" height="125">
 
