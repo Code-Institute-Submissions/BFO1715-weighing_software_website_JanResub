@@ -84,7 +84,13 @@ Tested responsiveness for multiple devices on Chrome Dev Tools as shown below:
 
 <img src="assets/images/midres-monitor-test.png" alt="Midres Monitor Test" width="200" height="125"><img src="assets/images/lowres-monitor-test.png" alt="Lowres Monitor Test" width="200" height="125"><img src="assets/images/ipad-test.png" alt="Ipad Test" width="200" height="125"><img src="assets/images/iphone-test.png" alt="Iphone Test" width="200" height="125">
 
-No bugs found in code.
+Tested nav bar to ensure all working correctly, tested @ error and submit is working on form as shown below:
+
+<img src="assets/images/form-email.png" alt="Form Email" width="200" height="125"><img src="assets/images/form-submit.png" alt="Form Submit" width="200" height="125"><img src="assets/images/form-result.png" alt="Form Submit" width="200" height="125">
+
+Bug found on contact page where email overlaps iphone portrait screen size. Fixed bug by reducing font size of contact info text on contact page.
+
+<img src="assets/images/bug-found.png" alt="Bug Found" width="200" height="125"><img src="assets/images/bug-fixed.png" alt="Bug Fixed" width="200" height="125">
 
 <strong><u>DEPLOYMENT</u></strong>
 
